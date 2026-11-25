@@ -1,0 +1,58 @@
+<section class="blk-ciclo" id="ciclo">
+  <div class="wrap">
+    <div class="blk-ciclo__cab" data-reveal>
+      <p class="blk-ciclo__eyebrow">O jeito da casa</p>
+      <h2 class="blk-ciclo__titulo">Uma limpeza de pele tem três tempos</h2>
+      <p class="blk-ciclo__lead" data-acende>A pele leva cerca de um mês para se renovar. Por isso o cuidado da Eládia não termina quando você levanta da maca.</p>
+    </div>
+    <div class="blk-ciclo__corpo">
+      <ol class="blk-ciclo__lista">
+        <li class="blk-ciclo__item" data-reveal style="--d:0ms">
+          <span class="blk-ciclo__n">1</span>
+          <span class="blk-ciclo__ic"><!--icone:pele--></span>
+          <h3>Na sala</h3>
+          <p>Higienização, extração feita com calma e ativos escolhidos para o seu tipo de pele. Quando faz sentido, a luz de LED fecha a sessão.</p>
+        </li>
+        <li class="blk-ciclo__item" data-reveal style="--d:90ms">
+          <span class="blk-ciclo__n">2</span>
+          <span class="blk-ciclo__ic"><!--icone:gota--></span>
+          <h3>Em casa</h3>
+          <p>Você leva a rotina explicada passo a passo e sabe quais produtos usar de manhã e à noite. Eles ficam na própria recepção.</p>
+        </li>
+        <li class="blk-ciclo__item" data-reveal style="--d:180ms">
+          <span class="blk-ciclo__n">3</span>
+          <span class="blk-ciclo__ic"><!--icone:agenda--></span>
+          <h3>A volta</h3>
+          <p>Entre quatro e seis semanas depois, a pele está pronta para a próxima limpeza. A data já pode sair marcada no dia da sessão.</p>
+        </li>
+      </ol>
+      <figure class="blk-ciclo__foto" data-reveal>
+        <!--foto:midia/maca.jpg|Maca de procedimentos branca numa sala clara da Eládia Estética-->
+        <figcaption>"Me orientou sobre como cuidar da minha pele em casa e indicou os produtos certos." <span>Gisele, no Google</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<style>
+.blk-ciclo{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 7%,var(--bg))}
+.blk-ciclo__cab{max-width:44rem;margin-bottom:var(--sp-5)}
+.blk-ciclo__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-ciclo__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-ciclo__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-ciclo__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-ciclo__item{position:relative;padding:var(--sp-4);border-radius:var(--radius);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 14%,transparent);box-shadow:0 10px 30px -18px color-mix(in srgb,var(--brand) 45%,transparent)}
+.blk-ciclo__item h3{margin:var(--sp-2) 0 .4rem;font-family:var(--f-display);font-size:1.7rem;line-height:1.1;color:var(--ink)}
+.blk-ciclo__item p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-ciclo__n{position:absolute;top:var(--sp-3);right:var(--sp-4);font-family:var(--f-display);font-size:3.2rem;line-height:1;color:color-mix(in srgb,var(--brand) 22%,transparent)}
+.blk-ciclo__ic{display:inline-grid;place-items:center;width:3rem;height:3rem;border-radius:50%;background:color-mix(in srgb,var(--brand) 10%,var(--bg));color:var(--brand)}
+.blk-ciclo__ic svg{width:1.5rem;height:1.5rem}
+.blk-ciclo__foto{margin:var(--sp-5) 0 0}
+.blk-ciclo__foto img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius)}
+.blk-ciclo__foto figcaption{margin-top:var(--sp-2);font-family:var(--f-display);font-size:1.2rem;line-height:1.4;color:var(--ink)}
+.blk-ciclo__foto figcaption span{display:block;margin-top:.3rem;font-family:var(--f-body);font-size:var(--t-label);color:color-mix(in srgb,var(--ink) 60%,transparent)}
+@media (min-width:900px){
+  .blk-ciclo__corpo{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:4.5rem;align-items:start}
+  .blk-ciclo__foto{margin:0;position:sticky;top:6rem}
+}
+</style>

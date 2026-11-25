@@ -1,0 +1,316 @@
+{
+  "slug": "eladia-estetica",
+  "negocio": {
+    "nome": "Eládia Estética",
+    "whatsapp": "554333231234",
+    "telefone": "(43) 3323-1234",
+    "funcionamento": {
+      "seg": "09:00-18:00",
+      "ter": "09:00-18:00",
+      "qua": "09:00-18:00",
+      "qui": "09:00-18:00",
+      "sex": "09:00-18:00",
+      "sab": "09:00-13:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Vila Larsen · Londrina",
+        "endereco": "R. Jorge Velho, 649 – Vila Larsen 1, Londrina – PR, 86010-600",
+        "telefone": "(43) 3323-1234",
+        "horario": "Segunda a sexta, 9h às 18h · Sábado, 9h às 13h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#5B2C72",
+    "brand2": "#3D1B50",
+    "ink": "#24172B",
+    "bg": "#FBF8FA",
+    "pulse": "#8A4FB0",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Manrope",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "O ciclo",
+            "href": "#ciclo"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética facial e corporal · Londrina",
+        "h1": "Limpeza de pele que continua em casa",
+        "lead": "Na Vila Larsen, a Eládia e a equipe cuidam do rosto e do corpo, e você sai da sala sabendo o que passar na pele até a próxima visita.",
+        "cta": "Marcar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Recepção da Eládia Estética, com lustre de cristal, parede roxa e prateleiras de dermocosméticos",
+        "tarja": [
+          "4,9 no Google, 92 avaliações",
+          "Clientes de mais de 20 anos",
+          "Empresa de empreendedoras",
+          "Sábado das 9h à uma da tarde"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Limpeza de pele",
+          "Tratamentos faciais",
+          "LED facial",
+          "Bronzeamento",
+          "Tratamentos corporais",
+          "Cuidado em casa"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A Eládia",
+        "texto": [
+          "Tem cliente que conhece a Eládia há mais de vinte anos, e tem quem venha com a mãe e a avó na mesma tarde.",
+          "O atendimento é o mesmo para todas: extração feita com calma, explicação do que a pele está pedindo e os produtos certos para levar para casa."
+        ],
+        "imagem": "midia/sala.jpg",
+        "imagemAlt": "Sala de procedimentos da Eládia Estética, com macas de lençol roxo e aparelhos de estética"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Do rosto ao corpo. A indicação sai da conversa com a Eládia, olhando a sua pele.",
+        "itens": [
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Higienização, extração cuidadosa e ativos escolhidos para o seu tipo de pele. É o tratamento que as clientes mais citam nas avaliações.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Tratamentos faciais com LED",
+            "descricao": "Luz de LED como complemento da limpeza e dos protocolos faciais, sem agulha e sem tempo de recuperação.",
+            "icone": "sol"
+          },
+          {
+            "nome": "Bronzeamento",
+            "descricao": "Cor dourada e uniforme, com orientação sobre como manter o tom e hidratar a pele nos dias seguintes.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Tratamentos corporais",
+            "descricao": "Protocolos com aparelho para o corpo, montados a partir do que você quer tratar.",
+            "icone": "mao",
+            "imagem": "midia/aparelhos.jpg"
+          },
+          {
+            "nome": "Cuidado em casa",
+            "descricao": "Você sai com a rotina escrita e os dermocosméticos indicados para a sua pele, à venda na própria recepção.",
+            "icone": "gota"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/ciclo.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Marcar é uma conversa curta",
+        "lead": "A recepção responde no mesmo número da clínica e já encaixa o horário.",
+        "cta": "Chamar a Eládia Estética",
+        "contato": "Eládia Estética",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Minha pele anda cheia de cravo. Vocês têm horário para limpeza de pele essa semana?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Temos sim. Quinta às 14h ou sábado às 10h, qual fica melhor?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Sábado! Precisa ir sem maquiagem?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Pode vir como estiver, a gente higieniza aqui. Sábado às 10h está reservado para você."
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Quem passa por aqui volta",
+        "itens": [
+          {
+            "valor": "4,9",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "92",
+            "rotulo": "avaliações de clientes",
+            "contar": 92
+          },
+          {
+            "valor": "20+",
+            "rotulo": "anos de clientes fiéis"
+          },
+          {
+            "valor": "6",
+            "rotulo": "dias por semana de atendimento",
+            "contar": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Por dentro da clínica",
+        "lead": "Salas individuais, recepção com os produtos à vista e acesso para cadeira de rodas da entrada ao banheiro.",
+        "itens": [
+          {
+            "imagem": "midia/consultorio.jpg",
+            "legenda": "Sala de avaliação"
+          },
+          {
+            "imagem": "midia/recepcao.jpg",
+            "legenda": "Recepção e loja de dermocosméticos"
+          },
+          {
+            "imagem": "midia/espera.jpg",
+            "legenda": "Sala de espera"
+          },
+          {
+            "imagem": "midia/sala.jpg",
+            "legenda": "Sala de procedimentos"
+          },
+          {
+            "imagem": "midia/agua.jpg",
+            "legenda": "Água e café para quem espera"
+          },
+          {
+            "imagem": "midia/corredor.jpg",
+            "legenda": "Corredor das salas"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que as clientes contam",
+        "itens": [
+          {
+            "texto": "Fez a limpeza de pele mais completa que já fiz e me orientou sobre como cuidar da pele em casa, com os produtos certos.",
+            "autor": "Gisele F.",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Conheço ela há mais de 20 anos. Profissional muito dedicada, e os produtos são ótimos.",
+            "autor": "Gelza F.",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Estive aí com a minha mãe e a minha vovó. Excelente atendimento da Eládia e da equipe.",
+            "autor": "Letícia F.",
+            "contexto": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          {
+            "p": "Preciso ir sem maquiagem?",
+            "r": "Não precisa. A higienização é a primeira etapa da limpeza de pele e é feita na própria sala."
+          },
+          {
+            "p": "A pele fica vermelha depois?",
+            "r": "Pode ficar levemente avermelhada por algumas horas depois da extração. A Eládia explica o que usar nesse dia."
+          },
+          {
+            "p": "De quanto em quanto tempo devo voltar?",
+            "r": "Depende do tipo de pele. Em geral, a limpeza é repetida a cada quatro a seis semanas, e a indicação sai na sua consulta."
+          },
+          {
+            "p": "Atende no sábado?",
+            "r": "Sim, das 9h à uma da tarde. De segunda a sexta, das 9h às 18h."
+          },
+          {
+            "p": "A clínica tem acessibilidade?",
+            "r": "Tem entrada, estacionamento, assento e banheiro acessíveis para quem usa cadeira de rodas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/espera.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Sua próxima limpeza de pele já pode ter data",
+        "lead": "Mande uma mensagem e a recepção encaixa o melhor horário da semana.",
+        "cta": "Marcar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}
